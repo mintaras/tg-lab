@@ -1,0 +1,24 @@
+.wrapper {
+  & :global form {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  & :global form .form-control {
+    flex: 1;
+    margin-right: 25px;
+  }
+
+  & :global table {
+    text-align: center;
+  }
+
+  & :global table td {
+    vertical-align: middle;
+  }
+
+  & :global .group-table-wrapper {
+    max-width: 100vw;
+    overflow-x: scroll;
+  }
+}

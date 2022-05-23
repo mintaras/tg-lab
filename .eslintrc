@@ -1,0 +1,23 @@
+{
+  "extends": ["react-app"],
+  "plugins": ["sort-imports-es6-autofix"],
+  "rules": {
+    "prefer-const": "error",
+    "no-unused-vars": "error",
+    "sort-imports-es6-autofix/sort-imports-es6": [
+      "error",
+      {
+        "ignoreCase": true,
+        "ignoreMemberSort": false
+      }
+    ],
+    "no-console": "warn",
+    "no-nested-ternary": "error",
+    "react/jsx-no-target-blank": [
+      "error",
+      {
+        "allowReferrer": true
+      }
+    ]
+  }
+}

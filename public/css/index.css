@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-display: swap;
+  src: url("../assets/fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-display: swap;
+  src: url("../assets/fonts/Poppins/Poppins-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-display: swap;
+  src: url("../assets/fonts/Poppins/Poppins-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-display: swap;
+  src: url("../assets/fonts/Poppins/Poppins-Bold.ttf") format("truetype");
+}
+
+input.is-valid:-webkit-autofill,
+input.is-valid:-webkit-autofill:hover,
+input.is-valid:-webkit-autofill:focus,
+textarea.is-valid:-webkit-autofill,
+textarea.is-valid:-webkit-autofill:hover,
+textarea.is-valid:-webkit-autofill:focus,
+select.is-valid:-webkit-autofill,
+select.is-valid:-webkit-autofill:hover,
+select.is-valid:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px #f8fef3 inset !important;
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+* {
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  scroll-behavior: auto;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f1f1f1;
+  position: relative;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input[type="checkbox"]:active,
+input[type="radio"]:active,
+input[type="radio"]:checked {
+  box-shadow: none;
+}
